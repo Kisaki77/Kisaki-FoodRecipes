@@ -1,0 +1,703 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+p {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+/*
+=================================================================================
+Recipes Link Section
+=================================================================================
+*/
+#recipes {
+    padding: 6% 7%;
+}
+
+.recipe {
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.recipe-list {
+    padding-top: 60px;
+}
+
+
+.recipe-link {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.5;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.recipe-link:hover {
+    color: grey;
+}
+
+
+/*=================================================================================
+Title
+=================================================================================
+*/
+
+.share {
+    padding-top: 25px;
+}
+
+#title {
+    background-color: rgb(88, 143, 143);
+    color: white;
+    text-align: left;
+    
+}
+
+.icon {
+    color: rgb(29, 63, 63);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+}
+
+.icon:hover {
+    color: white;
+}
+
+
+
+/*
+=================================================================================
+Containers
+=================================================================================
+*/
+.container-fluid {
+    padding: 3% 7%;
+}
+
+.container-fluid-recipes {
+    padding: 3% 7%;
+}
+
+#blur-background::before {
+    content: "";
+    background: url(../images/homewallpaper.jpg) center/cover no-repeat fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    z-index: 1; /* Place the pseudo-element behind the content */
+    
+}
+
+#blur-background {
+    position: relative;
+    color: white;
+
+}
+
+.home-text {
+    font-size: 60px;
+}
+
+
+/*
+=================================================================================
+Sections
+=================================================================================
+*/
+.colored-section {
+    background-color: rgb(49, 73, 73);
+}
+
+.first-wall-text {
+    padding: 5% 0%;
+    color: white;
+}
+
+.wall-text {
+    padding: 18% 0%;
+    color: white;
+    text-size-adjust: 20%;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.content {
+    padding-top: 142px;
+}
+
+.recipe-short-message {
+    color: white;
+}
+
+.contact-details {
+    border-radius: 10%;
+}
+
+.contact-us {
+    font-size: 100px;
+    padding-top: 150px;
+}
+
+.contact-details {
+    background-color: rgb(29, 63, 63);  
+}
+
+.details-heading {
+    color: white;
+    font-size: 25px;
+    padding: 60px 80px;
+}
+
+
+.details {
+    color: white;
+    font-size: 18px;
+    padding: 60px 80px;
+}
+
+.contact-us-icon i {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-us-icon a {
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us-icon a:hover {
+    color: silver;
+}
+
+.contacts-email {
+    color: rgb(29, 63, 63);
+}
+
+.contacts-email:hover {
+    color: silver
+}
+
+/*
+=================================================================================
+Section's Wallpapers and images
+=================================================================================
+*/
+
+.dinner {
+    background: url(../images/dinnerwallpaper1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.breakfast {
+    background: url(../images/breakfastwallpaper1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.meat {
+    background: url(../images/meatwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lunch {
+    background: url(../images/lunchwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dessert {
+    background: url(../images/dessertwallpaper1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.healthy {
+    background: url(../images/healthywallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quick-easy {
+    background: url(../images/easywallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chicken {
+    background: url(../images/chickenwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.beef {
+    background: url(../images/t-bone.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pork {
+    background: url(../images/porkwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fish {
+    background: url(../images/fishwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lamp {
+    background: url(../images/lampwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home {
+    background: url(../images/dessertwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    background: url(../images/green.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+/*
+=================================================================================
+Features Section
+=================================================================================
+*/
+.message-recipe {
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(29, 63, 63);
+}
+
+.feature-box {
+    padding: 1%;
+}
+
+.feature-links {
+    text-decoration: none;
+    color: rgb(29, 63, 63);
+}
+
+.feature-links:hover {
+    color:silver;
+}
+
+.imge {
+    width: 75%;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+
+/*
+=================================================================================
+New Dishes
+=================================================================================
+*/
+
+.new-dishes-text {
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    padding: 0 5%;
+    margin-bottom: 1rem;
+}
+
+.carousel-img {
+    width: 60%;
+    height: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+}
+
+.carousel-inner {
+    font-size: 1.5rem;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*
+=================================================================================
+More recipes
+=================================================================================
+*/
+
+.more-recipes-text {
+    padding-bottom: 5%;
+    color: white;
+}
+
+.more-box {
+    padding: 5%;
+}
+
+.more-links {
+    text-decoration: none;
+    color: white;
+}
+
+.more-links:hover {
+    color:silver;
+}
+
+.more-p {
+    color: gainsboro;
+}
+
+
+
+/*
+=================================================================================
+Message
+=================================================================================
+*/
+
+.msg {
+    padding: 7% 7%;
+}
+
+
+
+      
+
+
+/*
+=================================================================================
+Recipe
+=================================================================================
+*/
+
+/* Recipe Images */
+.recipe-images {
+    width: 55%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 50%;
+}
+
+.actual-recipe-paragraphs {
+    text-align: left;
+}
+
+.actual-recipe-heading {
+    text-align: left;
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+.ingredients-li {
+    font-weight: bold;
+}
+
+.ingredients li,
+.ingredients p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.aboutus {
+    color: white;
+}
+
+#row2 {
+    z-index: 2;
+}
+
+.dessert-text {
+    padding-bottom: 50px;
+    color: rgb(29, 63, 63);
+}
+
+
+#prev-icon, #next-icon {
+    background-color: rgb(29, 63, 63);
+}
+
+
+.aboutus-image {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border-radius: 100%;
+}
+
+.aboutus-paragraph {
+    padding-top: 60px;
+}
+
+
+/*
+=================================================================================
+Footer
+=================================================================================
+*/
+
+#footer {
+    position: relative;
+    z-index: 1005;
+    background-color: rgb(49, 73, 73);
+    color: white;
+    padding: 3% 7%;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center
+}
+
+
+.footer-brand {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-brand:hover{
+    color: silver;
+    text-decoration: none;
+}
+
+.footer-share {
+    padding-top: 50px;
+}
+
+.footer-icon:hover {
+    color: silver;
+}
+
+.footer-icon {
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+}
+
+.footer-imge {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+.footer-links .footer-logo {
+    display: flex; 
+    justify-content: space-between;
+    }
+
+  
+.footer-allrecipes,
+.footer-nav {
+width: 48%; 
+}
+
+
+.footer-allrecipes {
+margin-right: 50px; /* Add space below .footer-allrecipes */
+}
+
+
+.footer-nav {
+    margin-top: 10px; /* Add space above .footer-nav */
+}
+
+.footer-recipe-link,
+.footer-recipe-link1 {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.2;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.footer-recipe-link1 {
+    font-weight: bold;
+    }
+
+.footer-recipe-link:hover {
+    color: grey;
+    border-bottom: 1px solid grey; 
+}
+
+.footer-recipe-link1:hover {
+    color: grey;
+    border-bottom: 1px solid grey; 
+}
+
+.footer-links .recipe-list {
+    display: flex; /* Use flexbox to make them appear side by side */
+    justify-content: space-between; /* Add space between the two divs */
+    }
+
+
+@media (max-width: 1050px) {
+    /* 
+    =================================================================================
+    Home Page
+    =================================================================================
+    */
+
+    .home-text {
+        font-size: 40px;
+    }
+    .home-text-top {
+        margin-left: 0;
+    }
+
+
+    /* 
+    =================================================================================
+    About Us Page
+    =================================================================================
+    */
+    .container-fluid-recipes {
+        display: flex;
+        flex-direction: column-reverse; /* Reverse the order of columns */
+    }
+
+    /* Style for the image */
+    .paragraph2{
+        order: 1;
+        margin-top: 20px; 
+    }
+
+    /* Style for the paragraph */
+    .aboutus-paragraph {
+        order: 0; /* Change the order of the paragraph to appear above the image */
+    }
+
+    .contact-us {
+        font-size: 100px;
+        padding-top: 8px;
+        padding-bottom: 50px;
+    }
+    
+
+    /* 
+    =================================================================================
+    Footer
+    =================================================================================
+    */
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-logo,
+    .footer-recipe-link,
+    .footer-recipe-link1 {
+        width: 100%;
+    }
+
+    .footer-logo {
+        padding-bottom: 2%;
+    }
+
+    .footer-links {
+        padding-bottom: 10%;
+    }
+
+    .footer-imge {
+        width: 50%;
+    }
+
+    .footer-links .recipe-list {
+        display: flex; 
+        justify-content: space-between;
+      }
+      
+    .footer-allrecipes,
+    .footer-nav {
+    width: 48%;
+    }
+
+    .footer-recipe-link {
+        font-weight: lighter;
+    }
+ }
