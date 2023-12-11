@@ -1,80 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Kisaki'sRecipes</title>
+  <meta charset="utf-8">
+  <title >Kisaki's Recipes</title>
 
-    <link type="image/png" sizes="32x32" rel="icon" href="images/icons8-noodles-3d-fluency-32.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="images/icons8-noodles-3d-fluency-32.png">
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Ubuntu:ital@1&display=swap"
-        rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
 
-    <!-- CSS Stylesheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/5c32d52e92.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5c32d52e92.js" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <?php include('header.php'); ?>
+  <!-- Header -->
+  <?php include('header.php'); ?>
 
 
-    <!-- Recipes -->
 
-    <section class="cook">
+   <!-- Recipes -->
 
-        <h2 class="recipe-title">How To Make <span class="recipe-span">Homemade  Pizza!</span></h2>
+   <section class="colored-section" id="recipes">
 
-    </section>
-
-
-    <!-- Features -->
-
-    <section id="cooking-instructions">
-        <div class="container-fluid-recipes">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="imge" src="images/pizza1.jpg" alt="pizza1">
-                </div>
-
-                <div class="col-lg-6">
-                <span>
-                      <i id="recipe-span" class="fa fa-clock"></i>
-                  </span>
-                  <h3 id="intro-recipes">Prep time: 10 mins</h3><br>
-
-                  <span>
-                      <i id="recipe-span" class="fa fa-clock"></i>
-                  </span>
-                  <h3 id="intro-recipes">Cooking time: 45 mins</h3><br>
-
-                  <span>
-                      <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
-                  </span>
-                  <h3 id="intro-recipes">Servings: 6</h3>
-              </div>
+    <h2 class="recipe">How to make a homemade  Pizza!</h2>
+  
+  </section>
 
 
-                <div class="col-lg-12 ingredients-section">
+  <!-- Features -->
+
+  <section class="pizza-page">
+    <div class="container-fluid-recipes">
+        <div class="row">
+            <div class="pizza-recipe col-lg-12">
+                <h1 class="actual-recipe-heading">Pizza</h1>
+                <p class="actual-recipe-paragraphs">This pizza recipe is the best recipe you'll need to make homemade pizza.
+                    It only takes 45 minutes to cook and it's super easy. It just need few simple ingredients 
+                    and any kind of ingredients to your liking may be added too. Serve pizza hot with any drink for either 
+                    lunch, supper, or a snack.
+                </p>
+
+                <div><img class="recipe-images" src="images/pizza1.jpg" alt="pizza1"></div>
+
                 <h1 class="actual-recipe-heading">Pizza Ingredients</h1>
 
                 <p class="actual-recipe-paragraphs">
@@ -138,17 +118,17 @@
                     9. Take it out, cut it and serve hot with a drink 😊😋😋 Enjoy with family and friends. 
 
                 </p>
-                </div>
 
-                <div class="col-lg-6">
-                  <img class="imge" src="images/pizza2.jpg" alt="pizza1">
-                </div>
+                <div><img class="recipe-images" src="images/pizza2.jpg" alt="pizza1"></div>
             </div>
         </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <?php include('footer.php'); ?>
+
+  <!-- Footer -->
+  <?php include('footer.php'); ?>
+
 
 </body>
 

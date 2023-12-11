@@ -56,21 +56,21 @@
                     <img class="imge" src="images/pasta&mince.jpg" alt="mince pasta">
                 </div>
 
-                <div class="col-lg-6">
-                <span style="color: rgb(29, 63, 63); font-size: 30px; display: inline-block;">
-                      <i class="fa fa-clock"></i>
+                <div class="col-lg-6"  id="recipe-top-div">
+                  <span>
+                      <i id="recipe-span" class="fa fa-clock"></i>
                   </span>
-                  <h3 id="intro-recipes" style="display: inline-block; margin-left: 10px;">Prep time: 10 mins</h3><br>
+                  <h3 id="intro-recipes">Prep time: 10 mins</h3><br>
 
-                  <span style="color: rgb(29, 63, 63); font-size: 30px; display: inline-block;">
-                      <i class="fa fa-clock"></i>
+                  <span>
+                      <i id="recipe-span" class="fa fa-clock"></i>
                   </span>
-                  <h3 id="intro-recipes" style="display: inline-block; margin-left: 10px;">Cooking time: 30 mins</h3><br>
+                  <h3 id="intro-recipes">Cooking time: 30 mins</h3><br>
 
-                  <span style="color: rgb(29, 63, 63); font-size: 30px; display: inline-block;">
-                      <i class="fa-solid fa-bowl-food"></i>
+                  <span>
+                      <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
                   </span>
-                  <h3 id="intro-recipes" style="display: inline-block; margin-left: 10px;">Servings: 6</h3>
+                  <h3 id="intro-recipes">Servings: 6</h3>
               </div>
 
 
@@ -125,8 +125,8 @@
                     </p>
                 </div>
 
-                <div class="col-lg-12">
-                    <img class="recipe-images" src="images/mince&pasta2.jpg" alt="">
+                <div class="col-lg-6">
+                    <img class="imge" src="images/mince&pasta2.jpg" alt="">
                 </div>
             </div>
         </div>

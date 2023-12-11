@@ -26,6 +26,28 @@ p {
 Recipes Link Section
 =================================================================================
 */
+
+#recipe-span {
+    color: rgb(29, 63, 63);
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#intro-recipes {
+    font-family: "Montserrat-Bold";
+    color: rgb(29, 63, 63);
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 3;
+}
+
+#recipe-top-div {
+    display: flex;
+    align-items: center;
+}
+
+
 #recipes {
     padding: 6% 7%;
 }
@@ -52,11 +74,7 @@ Recipes Link Section
     border-radius: 10%;
 }
 
-#intro-recipes {
-    text-align: center;
-    font-family: "Montserrat-Bold";
-    color: rgb(29, 63, 63);
-}
+
 
 .recipe-title {
     text-align: center;
@@ -394,7 +412,7 @@ Features Section
 }
 
 .feature-box {
-    padding: 1%;
+    padding: 2.5%;
 }
 
 .feature-links {
