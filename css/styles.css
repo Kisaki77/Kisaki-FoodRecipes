@@ -42,11 +42,6 @@ Recipes Link Section
     line-height: 3;
 }
 
-#recipe-top-div {
-    display: flex;
-    align-items: center;
-}
-
 
 #recipes {
     padding: 6% 7%;
