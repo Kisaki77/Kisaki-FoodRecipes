@@ -92,7 +92,7 @@
       </div>
       
       <div>
-        <img class="Nobuhle" src="images/Nobuhle.png" alt="nobuhle">
+        <img class="Nobuhle" src="images/Nobuhle.jpg" alt="nobuhle">
       </div>
 
       <div>
