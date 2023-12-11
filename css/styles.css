@@ -30,6 +30,50 @@ Recipes Link Section
     padding: 6% 7%;
 }
 
+#cooking-instructions {
+    padding: 3% 17%;
+}
+.cooking-instructions-paragraph {
+    display: flex;
+    padding: 20px;
+    float: right;
+}
+
+.ingredients-heading {
+    padding-bottom: 20px;
+}
+.cook {
+    margin-top: 180px;
+}
+
+.recipe-imge {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+#intro-recipes {
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    color: rgb(29, 63, 63);
+}
+
+.recipe-title {
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    color: black;
+    line-height: 1.5;
+}
+
+.recipe-span {
+    color: rgb(29, 63, 63);
+}
+
+#more-recipes {
+    padding: 10% 7%;
+}
+
 .recipe {
     font-size: 3rem;
     color: white;
@@ -363,7 +407,7 @@ Features Section
 }
 
 .imge {
-    width: 75%;
+    width: 100%;
     margin-bottom: 2rem;
     border-radius: 10%;
 }
@@ -465,9 +509,11 @@ Recipe
 }
 
 .actual-recipe-heading {
+    padding-top: 12%;
     text-align: left;
     font-family: "Montserrat-Bold";
     font-weight: bolder;
+    
 }
 
 .ingredients-li {
@@ -508,6 +554,8 @@ Recipe
     margin-bottom: 5rem;
     border-radius: 100%;
 }
+
+
 
 .aboutus-paragraph {
     padding-top: 60px;
