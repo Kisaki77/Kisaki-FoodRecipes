@@ -85,47 +85,40 @@
     </div>
   </section>
 
-  <section class="white-section">
-    <div class="container-fluid">
-      <div class="message-recipe">
-        <h2>Meet the Leadership Members</h2>
-      </div>
-      
-      <div>
-        <img class="Nobuhle" src="images/Nobuhle.jpg" alt="nobuhle">
-      </div>
+  <section class="pizza-page">
+    <div class="container-fluid-recipes">
+      <div class="row">
+        <div class="message-recipe col-lg-12">
+          <h2>Meet the Leadership Members</h2>
+        </div>
 
-      <div>
-        <p>Nobuhle Mlahleki</p>
-      </div>
-      <div>
-        <p>Founder and CEO</p> <br><br>
-      </div>
+        <!-- <div class="col-lg-6"> >
+          <img class="aboutus-image" src="images/Team/Nobuhle.png" alt="nobuhle">
+        <!- </div> -->
+        <div class="col-lg-6">
+              <img class="aboutus-image" style="margin-bottom: -45rem; width: 100%; height: 80%;" src="images/Team/Nobuhle.png" alt="">
+        </div>
 
-      <div>
-        <p class="actual-recipe-paragraphs">
-          <ul class="ingredients actual-recipe-paragraphs">
-              <li class="ingredients-li">-</li>
-              <p>
+        <div class="col-lg-6">
+          <p class="aboutus-paragraph" id="nobuhle-section">
+              <b>Nobuhle Mlahleki</b> <br><br>
+              <b>Founder</b><br><br>
+
                 Nobuhle has been a programmer, designer, developer and more for 
-                4 years and she founded Kisaki's Recipes in 2022.  
-              </p><br><br>
+                4 years and she founded Kisaki's Recipes in 2022. <br><br>
 
-              <li class="ingredients-li">-</li>
-              <p> She designed, programmed 
+                She designed, programmed 
                 and developed this website, she fell in love with cooking and decided to do this 
-                website and share her ideas and her recipes with people. 
-              </p><br><br>
-              <li class="ingredients-li">-</li>
-              <p>
+                website and share her ideas and her recipes with people. <br><br>
+
                 She is so passionate about learning new ideas and how to make her 
-                food taste even more better. 
-              </p><br>
-          </ul>
-      </p>
-      </div>
-    </div>     
-  </section> 
+                food taste even more better.  
+          </p>
+        </div>
+
+    </div>
+  </div>
+  </section>
 
   <section class="colored-section about" id="recipes" style="color: white;">
     <div class="container-fluid-recipes">
